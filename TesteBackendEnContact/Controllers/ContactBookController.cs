@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 using TesteBackendEnContact.Core.Domain.ContactBook;
 using TesteBackendEnContact.Core.Interface.ContactBook;
